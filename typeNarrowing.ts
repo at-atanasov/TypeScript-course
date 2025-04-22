@@ -103,6 +103,7 @@ function makeNoise(animal: Cat | Dog): string {
     return "Meow";
   } else {
     animal;
+    return "Wof";
   }
 }
 
